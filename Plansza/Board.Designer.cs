@@ -28,39 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.koniec = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // koniec
-            // 
-            this.koniec.AutoSize = true;
-            this.koniec.BackColor = System.Drawing.Color.Transparent;
-            this.koniec.Font = new System.Drawing.Font("Microsoft Sans Serif", 80.25F);
-            this.koniec.ForeColor = System.Drawing.Color.Red;
-            this.koniec.Location = new System.Drawing.Point(143, 305);
-            this.koniec.Name = "koniec";
-            this.koniec.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.koniec.Size = new System.Drawing.Size(624, 120);
-            this.koniec.TabIndex = 0;
-            this.koniec.Text = "Checkmate!";
-            this.koniec.Visible = false;
             // 
             // Board
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 959);
-            this.Controls.Add(this.koniec);
             this.Name = "Board";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chess";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label koniec;
     }
 }
 
